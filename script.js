@@ -4,6 +4,4 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
-document.addEventListener('contextmenu', function (event) {
-            event.preventDefault();
-        });
+document.addEventListener('contextmenu', function (event) {event.preventDefault();});
